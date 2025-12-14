@@ -1,0 +1,8 @@
+{
+  "produtoValido": {
+    "nome": "Produto QA Cypress",
+    "preco": 100,
+    "descricao": "Produto criado via automacao de testes",
+    "quantidade": 10
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "usuarioValido": {
+    "nome": "Usuario Teste QA",
+    "email": "usuario_teste_{{timestamp}}@qa.com",
+    "password": "123456",
+    "administrador": "true"
+  },
+
+  "usuarioNaoAdmin": {
+    "nome": "Usuario Comum",
+    "email": "usuario_comum_{{timestamp}}@qa.com",
+    "password": "123456",
+    "administrador": "false"
+  }
+}
