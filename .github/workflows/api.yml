@@ -2,9 +2,11 @@ name: API Tests - Cypress
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    branches:
+      - main
+    paths-ignore:
+      - 'README.md'
+      - '.github/**'
 
 jobs:
   cypress-tests:
